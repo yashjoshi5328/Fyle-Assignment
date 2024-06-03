@@ -1,0 +1,45 @@
+.Homepage-layout5 {
+    width: 100vw;
+    background: #fafafa;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Homepage-layout5-container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Homepage-layout5-container3-item {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1 1 200px; /* flex-grow, flex-shrink, flex-basis */
+    max-width: 200px; /* Ensure the boxes don't grow too large */
+    transition: background 0.3s;
+}
+
+.Homepage-layout5-container3-item .icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.Homepage-layout5-container3-item .count {
+    font: normal normal 300 60px/65px Poppins;
+    margin: 10px 0;
+}
+
+.Homepage-layout5-container3-item .about {
+    font: normal normal 300 16px/1.5 Poppins;
+    padding: 5px 0;
+}
+
+.Homepage-layout5-container3-item:hover {
+    background: #ffffff;
+    box-shadow: 3px 6px 20px #672C2C1F;
+}
